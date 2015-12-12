@@ -1,11 +1,11 @@
-from nltk.corpus import stopwords
-from sklearn.linear_model import LogisticRegression
-from sklearn.preprocessing import LabelEncoder
-from sklearn.feature_extraction import DictVectorizer
-try:
-   import cPickle as pickle
-except:
-   import pickle
+# from nltk.corpus import stopwords
+# from sklearn.linear_model import LogisticRegression
+# from sklearn.preprocessing import LabelEncoder
+# from sklearn.feature_extraction import DictVectorizer
+# try:
+#    import cPickle as pickle
+# except:
+#    import pickle
 
 clf = LogisticRegression()
 dv = DictVectorizer(sparse=True)
