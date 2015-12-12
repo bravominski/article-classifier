@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 from flask.ext.heroku import Heroku
 
+from sklearn.linear_model import LogisticRegression
 from nltk.corpus import stopwords
 try:
    import cPickle as pickle
